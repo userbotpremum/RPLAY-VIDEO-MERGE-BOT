@@ -2,26 +2,31 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 123456))
+    API_ID = os.environ.get("API_ID")
     API_HASH = os.environ.get("API_HASH")
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", ":memory:")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "Video-Merge-Bot")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
+    DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
+    TIME_GAP = int(os.environ.get("TIME_GAP", 5))
+    MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
+    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
+    STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
     MONGODB_URI = os.environ.get("MONGODB_URI")
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1445283714))
 
-    ASK_FOR_BLOCKED_WORDS_LIST = os.environ.get("ASK_FOR_BLOCKED_WORDS_LIST",
-                                                "Reply to this message with a list of Blocked Words. If those in Message I will not Forward them!\n\nExample:\nhello\nhacker\ncracker\njoin\nabuse heroku\njoin my channel\nchutiyappa")
-    ASK_FOR_BLOCKED_EXT_LIST = os.environ.get("ASK_FOR_BLOCKED_EXT_LIST",
-                                              "Reply to this message with a list of Blocked Extensions. If any file with that extension I will not forward that file!\n\nExample:\nzip\nmkv\ntorrent\ntxt\npy\ncap\nmp4\nmp3\nrar\n\nExtensions should be in lower case!")
     START_TEXT = """
-Hi, This is Massages Manager Bot!
-I can do many things with messages in a Group.
-Check /settings !! 
+Hi Unkil, I am Video Merge Bot!
+I can Merge Multiple Videos in One Video. Video Formats should be same.
+Made by @AbirHasan2005
 """
-    ABOUT_CUSTOM_FILTERS_TEXT = """
-Custom Filters is for deleting only separate type Media Messages or Only Text Messages.
-Like you can set only delete `photo` or `video` or `document` or `audio` or `text` ...
-If Need More Help Ask in [Support Group](https://t.me/JoinOT)!
+    CAPTION = "Video Merged by @{}\n\nMade by @AbirHasan2005"
+    PROGRESS = """
+Percentage : {0}%
+Done: {1}
+Total: {2}
+Speed: {3}/s
+ETA: {4}
 """
