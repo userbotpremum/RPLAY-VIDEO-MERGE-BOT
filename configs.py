@@ -7,7 +7,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     SESSION_NAME = os.environ.get("SESSION_NAME", "video-merger-bot" )
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001576361605" )
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001576361605" )
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001597887921" )
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
     TIME_GAP = int(os.environ.get("TIME_GAP", 5))
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
@@ -18,11 +18,11 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1990460616))
 
     START_TEXT = """
-Hi Unkil, I am Video Merge Bot!
+Hi `{event.sender.first_name}, I am RPLAY ™ Video Merge Bot!
 I can Merge Multiple Videos in One Video. Video Formats should be same.
-Made by @AbirHasan2005
+Made by @renishrplay
 """
-    CAPTION = "Video Merged by @{}\n\nMade by @AbirHasan2005"
+    CAPTION = "Video Merged by @{}\n\nMade by @renishrplay"
     PROGRESS = """
 Percentage : {0}%
 Done: {1}
