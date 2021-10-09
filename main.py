@@ -59,6 +59,10 @@ async def start_handler(bot: Client, m: Message):
                 [InlineKeyboardButton("Developer - @RPLAY ™ ", url="https://t.me/renishrplay")],
                 [InlineKeyboardButton("Support Group", url="https://t.me/rplay_support"),
                  InlineKeyboardButton("MOVIE Channel", url="https://t.me/rplaymovie")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/rplay_support"),
+                 InlineKeyboardButton("MOVIE Channel", url="https://t.me/rplaymovie")],
+                [InlineKeyboardButton("Support Group", url="https://t.me/rplay_support"),
+                 InlineKeyboardButton("MOVIE Channel", url="https://t.me/rplaymovie")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
