@@ -1,35 +1,27 @@
-# (c) @AbirHasan2005
-
 import os
 
 
 class Config(object):
-    API_ID = os.environ.get("API_ID")
+    API_ID = int(os.environ.get("API_ID", 123456))
     API_HASH = os.environ.get("API_HASH")
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    SESSION_NAME = os.environ.get("SESSION_NAME", "RPLAY-VIDEO-MERGE-BOT")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL" "-1001210904908" )
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001210904908" )
-    DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
-    TIME_GAP = int(os.environ.get("TIME_GAP", 5))
-    MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 15))
-    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "2ab52c1ef915e52f4ee8" )
-    STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "zwgdM4xjXpsYPAP" )
-    MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://rplayvcbot:1rplay2@cluster0.n7alv.mongodb.net/cluster0?retryWrites=true&w=majority" )
-    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
-    BOT_OWNER = int(os.environ.get("BOT_OWNER", 1990460616)
+    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", ":memory:")
+    MONGODB_URI = os.environ.get("MONGODB_URI")
+    OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 
+    ASK_FOR_BLOCKED_WORDS_LIST = os.environ.get("ASK_FOR_BLOCKED_WORDS_LIST",
+                                                "Reply to this message with a list of Blocked Words. If those in Message I will not Forward them!\n\nExample:\nhello\nhacker\ncracker\njoin\nabuse heroku\njoin my channel\nchutiyappa")
+    ASK_FOR_BLOCKED_EXT_LIST = os.environ.get("ASK_FOR_BLOCKED_EXT_LIST",
+                                              "Reply to this message with a list of Blocked Extensions. If any file with that extension I will not forward that file!\n\nExample:\nzip\nmkv\ntorrent\ntxt\npy\ncap\nmp4\nmp3\nrar\n\nExtensions should be in lower case!")
     START_TEXT = """
-Hi `{event.sender.first_name}`, I am RPLAY ™ Video Merge Bot!
-I can Merge Multiple Videos in One Video. Video Formats should be same.
-
-Made by @renishrplay
+Hi, This is Massages Manager Bot!
+I can do many things with messages in a Group.
+Check /settings !! 
 """
-    CAPTION = "Video Merged by @{}\n\nMade by @renishrplay"
-    PROGRESS = """
-Percentage : {0}%
-Done: {1}
-Total: {2}
-Speed: {3}/s
-ETA: {4}
+    ABOUT_CUSTOM_FILTERS_TEXT = """
+Custom Filters is for deleting only separate type Media Messages or Only Text Messages.
+Like you can set only delete `photo` or `video` or `document` or `audio` or `text` ...
+If Need More Help Ask in [Support Group](https://t.me/JoinOT)!
 """
