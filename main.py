@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @RENISH
 # This is very simple Telegram Videos Merge Bot.
 # Coded by a Nub.
 # Don't Laugh seeing the codes.
@@ -57,12 +57,12 @@ async def start_handler(bot: Client, m: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Developer - @RPLAY ™ ", url="https://t.me/renishrplay")],
-                [InlineKeyboardButton("Support Group", url="https://t.me/rplay_support"),
-                 InlineKeyboardButton("MOVIE Channel", url="https://t.me/rplaymovie")],
-                [InlineKeyboardButton("Support Group", url="https://t.me/rplay_support"),
-                 InlineKeyboardButton("MOVIE Channel", url="https://t.me/rplaymovie")],
-                [InlineKeyboardButton("Support Group", url="https://t.me/rplay_support"),
-                 InlineKeyboardButton("MOVIE Channel", url="https://t.me/rplaymovie")],
+                [InlineKeyboardButton("MAKE OWN", url="https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT"),
+                 InlineKeyboardButton("CONTACT BOT", url="https://t.me/Rplay_renish_bot")],
+                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie"),
+                 InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/RPLAY_stickers")],
+                [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
+                 InlineKeyboardButton("DONATE", url="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBt")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
