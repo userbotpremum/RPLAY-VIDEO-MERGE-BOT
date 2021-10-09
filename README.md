@@ -1,5 +1,5 @@
 # RPLAY ™ VIDEO MERGE BOT
-This is very simple Telegram Videos Merge Bot by [@AbirHasan2005](https://t.me/AbirHasan2005). Using FFmpeg for Merging Videos.
+This is very simple Telegram Videos Merge Bot by [@RENISH](https://t.me/renishrplay). Using FFmpeg for Merging Videos.
 
 ## Features:
 - Merge Multiple Videos.
@@ -8,7 +8,6 @@ This is very simple Telegram Videos Merge Bot by [@AbirHasan2005](https://t.me/A
 - 2GB+ Files will Upload to Streamtape.
 - Others check by your own feeling lazy to describe.
 
-# RPLAY-VIDEO-COMPRESSOR-BOT
 
 # 💜♥️💜♥️ DEPLOY ON HEROKU
 ## 🚀 Deployment
@@ -22,14 +21,14 @@ This is very simple Telegram Videos Merge Bot by [@AbirHasan2005](https://t.me/A
 
 # RAILWAY deploy 
 ### DEPLOY ON your own risk because I don't know what happened
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT&envs=API_ID,API_HASH,BOT_TOKEN,OWNER)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT&envs=BOT_TOKEN)
 #
 
 # Variables
 `BOT_TOKEN`
 
 # DEMO BOT
-<a href="https://t.me/Demo5_r0bot"><img src="https://transfer.sh/Npows7/photo_2021-09-28_18-41-34.jpg"></a>
+<a href="https://t.me/Rplay_video_mergebot"><img src="https://transfer.sh/Npows7/photo_2021-09-28_18-41-34.jpg"></a>
 
 
 <h2 align="center">☕️ Tea, Coffee, Dinner?</h2>
