@@ -9,7 +9,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     SESSION_NAME = os.environ.get("SESSION_NAME", "RPLAY-VIDEO-MERGE-BOT")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL" "-1001210904908" )
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001210904908' )
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001210904908" )
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
     TIME_GAP = int(os.environ.get("TIME_GAP", 5))
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 15))
