@@ -18,7 +18,7 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1990460616))
 
     START_TEXT = """
-Hi `{START_TEXT.sender.first_name},\nI am RPLAY ™ Video Merge Bot!\n
+Hi 👋 welcome to RPLAY ™,\nI am RPLAY ™ Video Merge Bot!\n
 I can Merge Multiple Videos in One Video.\n Video Formats should be same.\n
 Made by @renishrplay
 """
