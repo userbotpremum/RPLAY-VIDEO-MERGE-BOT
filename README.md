@@ -1,4 +1,4 @@
-# VideoMerge-Bot
+# RPLAY ™ VIDEO MERGE BOT
 This is very simple Telegram Videos Merge Bot by [@AbirHasan2005](https://t.me/AbirHasan2005). Using FFmpeg for Merging Videos.
 
 ## Features:
@@ -8,30 +8,33 @@ This is very simple Telegram Videos Merge Bot by [@AbirHasan2005](https://t.me/A
 - 2GB+ Files will Upload to Streamtape.
 - Others check by your own feeling lazy to describe.
 
-## Demo Bot:
-<a href="https://t.me/AH_VideoMergeBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+# RPLAY-VIDEO-COMPRESSOR-BOT
 
-### Deploy to Heroku:
-Just Press Below Button to Deploy!
+# 💜♥️💜♥️ DEPLOY ON HEROKU
+## 🚀 Deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### Support Group:
-<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+# 💜♥️ ADD-ON
+## TO MAKE POWERFUL BOT
+<a href="https://dashboard.heroku.com/provision-addon?addonServiceId=6c67493d-8fc2-4cd4-9161-4f1ec11cbe69&planId=062a1cc7-f79f-404c-9f91-135f70175577"><img src="https://transfer.sh/v9OPmc/photo_2021-09-29_09-56-20.jpg"></a>
+###👆🏻👆🏻👆🏻 Click on button to install heroku add-on
 
-### Video Tutorial:
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=m4r_SHySGYo)
+# RAILWAY deploy 
+### DEPLOY ON your own risk because I don't know what happened
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Rplayoriginal/RPLAY-VIDEO-COMPRESSOR-BOT&envs=API_ID,API_HASH,BOT_TOKEN,OWNER)
+#
 
-### Follow on:
-<p align="left">
-<a href="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
-</p>
-<p align="left">
-<a href="https://twitter.com/AbirHasan2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
-</p>
-<p align="left">
-<a href="https://facebook.com/AbirHasan2005"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
-</p>
-<p align="left">
-<a href="https://instagram.com/AbirHasan2005"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
+# Variables
+`BOT_TOKEN`
+
+# DEMO BOT
+<a href="https://t.me/Demo5_r0bot"><img src="https://transfer.sh/Npows7/photo_2021-09-28_18-41-34.jpg"></a>
+
+
+<h2 align="center">☕️ Tea, Coffee, Dinner?</h2>
+<p align="center">
+    <a href="https://www.buymeacoffee.com/Rplay"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+ 
+   <a href="https://www.paypal.me/renish12" target="_blank"><img src="https://transfer.sh/zYGSim/paypal.svg" at="PayPal" stype="height: 60px !important;width: 217px !important;" ></a>
 </p>
