@@ -8,9 +8,9 @@
         "merge",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/VideoMerge-Bot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/AH_VideoMergeBot",
+    "repository": "https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT",
+    "website": "https://t.me/renishrplay",
+    "success_url": "https://t.me/Rplay_video_mergebot",
     "env": {
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
