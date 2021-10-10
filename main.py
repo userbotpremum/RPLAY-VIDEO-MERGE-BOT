@@ -51,7 +51,8 @@ async def start_handler(bot: Client, m: Message):
     if Fsub == 400:
         return
     await m.reply_text(
-        text=Config.START_TEXT,
+        text=f"**Name:** [{user.first_name}](tg://user?id={str(user.id)})\n" \
+                      f"**Username:** `{user.username}`,Config.START_TEXT,
         disable_web_page_preview=True,
         quote=True,
         reply_markup=InlineKeyboardMarkup(
