@@ -367,18 +367,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton("Developer - @RPLAY ™ ", url="https://t.me/renishrplay")],
-                [InlineKeyboardButton("MAKE OWN", url="https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT"),
-                 InlineKeyboardButton("CONTACT BOT", url="https://t.me/Rplay_renish_bot")],
-                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie"),
-                 InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/RPLAY_stickers")],
-                [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
-                 InlineKeyboardButton("DONATE", url="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBt")],
-                [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
-                [InlineKeyboardButton("Close", callback_data="closeMeh")]
-            ]
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @RPLAY", url="https://t.me/renishrplay")], [InlineKeyboardButton("MAKE OWN", url="https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT"), InlineKeyboardButton("CONTACT BOT", url="https://t.me/Rplay_renish_bot")], [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie"),InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/RPLAY_stickers")], [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),InlineKeyboardButton("DONATE", url="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBt")]]),
         )
     )
         )
