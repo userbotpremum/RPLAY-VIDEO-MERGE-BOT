@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @RENISH
 import asyncio
 import time
 from configs import Config
@@ -30,9 +30,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                        [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                         InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                        [InlineKeyboardButton("Developer - @RENISH", url="https://t.me/renishrplay")],
+                        [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
+                         InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie")]
                     ]
                 )
             )
@@ -51,9 +51,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")],
-                        [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-                         InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]
+                        [InlineKeyboardButton("Developer - @RENISH", url="https://t.me/renishrplay")],
+                        [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
+                         InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie")]
                     ]
                 )
             )
