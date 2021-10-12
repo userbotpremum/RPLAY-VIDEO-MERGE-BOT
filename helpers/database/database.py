@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @RENISH
 
 import datetime
 import motor.motor_asyncio
@@ -17,8 +17,8 @@ class Database:
             join_date=datetime.date.today().isoformat(),
             upload_as_doc=False,
             thumbnail=None,
-            generate_ss=False,
-            generate_sample_video=False
+            generate_ss=True,
+            generate_sample_video=True
         )
 
     async def add_user(self, id):
