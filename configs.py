@@ -18,9 +18,9 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1990460616))
 
     START_TEXT ="""
-Hi 👋, I am RPLAY ™ VIDEO MERGE BOT!
+Hi 👋, I am **RPLAY ™** `Renish Video Merge` @Rplay_video_mergebot!
 I can Merge Multiple Videos in One Video. Video Formats should be same.
-Made by @renishrplay `[{cb.from_user.first_name}]``{cb.from_user.username}`
+Made by @renishrplay 
 """
     CAPTION = "Video Merged by @{}\n\nMade by @renishrplay"
     PROGRESS = """
