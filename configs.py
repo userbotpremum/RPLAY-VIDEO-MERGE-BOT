@@ -17,11 +17,7 @@ class Config(object):
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1990460616))
 
-    START_TEXT = """
-Hi 👋 welcome to RPLAY ™,\nI am RPLAY ™ Video Merge Bot!\n
-I can Merge Multiple Videos in One Video.\n Video Formats should be same.\n
-Made by @renishrplay
-"""
+    START_TEXT = f"HELLO 👋 **NAME:** [{cb.from_user.first_name}](tg://user?id={str(cb.from_user.id)})\n**your Username:** `{cb.from_user.username}`\n**your UserID:** `{cb.from_user.id}`\nI am RPLAY ™ Video Merge Bot!\nI can Merge Multiple Videos into One Video.\n Video Formats should be same.\nMade by @renishrplay"
     CAPTION = "Video Merged by @{}\n\nMade by @renishrplay"
     PROGRESS = """
 Percentage : {0}%
