@@ -50,7 +50,8 @@ async def start_handler(bot: Client, m: Message):
     Fsub = await ForceSub(bot, m)
     if Fsub == 400:
         return
-    await m.reply_text(f"HELLO 👋 **NAME:** [{cb.from_user.first_name}](tg://user?id={str(cb.from_user.id)})\n**your Username:** `{cb.from_user.username}`\n**your UserID:** `{cb.from_user.id}`\nI am RPLAY ™ Video Merge Bot!\nI can Merge Multiple Videos into One Video.\n Video Formats should be same.\nMade by @renishrplay"
+    await m.reply_text(
+        text=Config.START_TEXT
         disable_web_page_preview=True,
         quote=True,
         reply_markup=InlineKeyboardMarkup(
