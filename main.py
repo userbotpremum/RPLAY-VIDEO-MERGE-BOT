@@ -50,10 +50,10 @@ async def start_handler(bot: Client, m: Message):
     Fsub = await ForceSub(bot, m)
     if Fsub == 400:
         return
-    await m.reply_text(
-        text=HELLO 👋 **NAME:** [{cb.from_user.first_name}](tg://user?id={str(cb.from_user.id)})\n**your Username:** `{cb.from_user.username}`\n**your UserID:** `{cb.from_user.id}`",\nI am RPLAY ™ Video Merge Bot!\n
+    await m.reply(
+         f"HELLO 👋 **NAME:** [{cb.from_user.first_name}](tg://user?id={str(cb.from_user.id)})\n**your Username:** `{cb.from_user.username}`\n**your UserID:** `{cb.from_user.id}`",\nI am RPLAY ™ Video Merge Bot!\n
 I can Merge Multiple Videos into One Video.\n Video Formats should be same.\n
-Made by @renishrplay,
+Made by @renishrplay"
         disable_web_page_preview=True,
         quote=True,
         reply_markup=InlineKeyboardMarkup(
