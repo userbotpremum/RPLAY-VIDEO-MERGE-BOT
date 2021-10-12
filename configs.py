@@ -20,7 +20,7 @@ class Config(object):
     START_TEXT ="""
 Hi 👋, I am RPLAY ™ VIDEO MERGE BOT!
 I can Merge Multiple Videos in One Video. Video Formats should be same.
-Made by @renishrplay
+Made by @renishrplay ,f"**User:** [{cb.from_user.first_name}](tg://user?id={str(cb.from_user.id)})\n**Username:** `{cb.from_user.username}`\n**UserID:** `{cb.from_user.id}`"
 """
     CAPTION = "Video Merged by @{}\n\nMade by @renishrplay"
     PROGRESS = """
