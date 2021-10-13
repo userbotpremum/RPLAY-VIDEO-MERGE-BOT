@@ -57,6 +57,7 @@ async def start_handler(bot: Client, m: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Developer - @RPLAY ™ ", url="https://t.me/renishrplay")],
+                [InlineKeyboardButton("VIDEO COMPRESSOR BOT", url="https://t.me/Rplay_compressor_bot")],
                 [InlineKeyboardButton("MAKE OWN", url="https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT"),
                  InlineKeyboardButton("CONTACT BOT", url="https://t.me/Rplay_renish_bot")],
                 [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie"),
