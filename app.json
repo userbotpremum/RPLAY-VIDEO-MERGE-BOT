@@ -15,19 +15,24 @@
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
         }
-    },
-    "buildpacks": [ 
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }, 
-        { 
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+      },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
     }
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }, {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
