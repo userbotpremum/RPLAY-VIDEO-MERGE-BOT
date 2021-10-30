@@ -1,4 +1,4 @@
-# (c) @RENISH
+# (c) @BullMovies_Team
 # This is very simple Telegram Videos Merge Bot.
 # Coded by a Nub.
 # Don't Laugh seeing the codes.
@@ -56,14 +56,13 @@ async def start_handler(bot: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer - @RPLAY ™ ", url="https://t.me/renishrplay")],
-                [InlineKeyboardButton("VIDEO COMPRESSOR BOT", url="https://t.me/Rplay_compressor_bot")],
-                [InlineKeyboardButton("MAKE OWN", url="https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT"),
-                 InlineKeyboardButton("CONTACT BOT", url="https://t.me/Rplay_renish_bot")],
-                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie"),
-                 InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/RPLAY_stickers")],
-                [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
-                 InlineKeyboardButton("DONATE", url="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBt")],
+                [InlineKeyboardButton("Developer - @BullMovies_Team ™ ", url="https://t.me/BullMovies_Team")],
+                [InlineKeyboardButton("VIDEO COMPRESSOR BOT", url="http://t.me/videomerge842_bott")],
+                [InlineKeyboardButton("MAKE OWN", url="https://github.com/userbotpremum/RPLAY-VIDEO-MERGE-BOT"),
+                 InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMoviesOfficial_bot")],
+                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMoviesTeam"),
+                 InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/IndianBot_1167961858_kang")],
+                [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMoviesTorrent")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
@@ -332,7 +331,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 user = await bot.get_chat_member(chat_id=(int(Config.UPDATES_CHANNEL) if Config.UPDATES_CHANNEL.startswith("-100") else Config.UPDATES_CHANNEL), user_id=cb.message.chat.id)
                 if user.status == "kicked":
                     await cb.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/BullMoviesTorrent).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -360,7 +359,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 return
             except Exception:
                 await cb.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/BullMoviesTorrent).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -368,7 +367,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @RPLAY", url="https://t.me/renishrplay")], [InlineKeyboardButton("MAKE OWN", url="https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT"), InlineKeyboardButton("CONTACT BOT", url="https://t.me/Rplay_renish_bot")], [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie"),InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/RPLAY_stickers")], [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),InlineKeyboardButton("DONATE", url="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer%2Fhomepage%2Fexternal%2Fprofile%3FflowContextData%3DMTmBt")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @BullMovies_Team", url="https://t.me/BullMovies_Team")], [InlineKeyboardButton("MAKE OWN", url="https://github.com/userbotpremum/RPLAY-VIDEO-MERGE-BOT"), InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMoviesOfficial_bot")], [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMoviesTeam"),InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/IndianBot_1167961858_kang")], [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMoviesTorrent")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
