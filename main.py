@@ -58,8 +58,8 @@ async def start_handler(bot: Client, m: Message):
             [
                 [InlineKeyboardButton("Developer - @BullMovies_Team ™ ", url="https://t.me/BullMovies_Team")],
                 [InlineKeyboardButton("VIDEO COMPRESSOR BOT", url="https://t.me/videomerge842_bot")],
-                 InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMovies_Team")],
-                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMovies_Team"),
+                 InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMoviesOfficial_bot")],
+                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMovieTeam"),
                  InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/IndianBot_1167961858_kang")],
                 [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMovies_Team"),
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
