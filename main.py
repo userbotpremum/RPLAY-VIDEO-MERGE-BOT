@@ -57,10 +57,10 @@ async def start_handler(bot: Client, m: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Developer - @BullMovies_Team ™ ", url="https://t.me/BullMovies_Team")],
-                [InlineKeyboardButton("VIDEO COMPRESSOR BOT", url="http://t.me/videomerge842_bott")],
+                [InlineKeyboardButton("VIDEO COMPRESSOR BOT", url="http://t.me/videomerge842_bot")],
                 [InlineKeyboardButton("MAKE OWN", url="https://github.com/userbotpremum/RPLAY-VIDEO-MERGE-BOT"),
                  InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMoviesOfficial_bot")],
-                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMoviesTeam"),
+                [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMovieTeam"),
                  InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/IndianBot_1167961858_kang")],
                 [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMoviesTorrent")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
@@ -367,7 +367,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @BullMovies_Team", url="https://t.me/BullMovies_Team")], [InlineKeyboardButton("MAKE OWN", url="https://github.com/userbotpremum/RPLAY-VIDEO-MERGE-BOT"), InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMoviesOfficial_bot")], [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMoviesTeam"),InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/IndianBot_1167961858_kang")], [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMoviesTorrent")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer - @BullMovies_Team", url="https://t.me/BullMovies_Team")], [InlineKeyboardButton("MAKE OWN", url="https://github.com/userbotpremum/RPLAY-VIDEO-MERGE-BOT"), InlineKeyboardButton("CONTACT BOT", url="https://t.me/BullMoviesOfficial_bot")], [InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMovieTeam"),InlineKeyboardButton("MOVIE STICKERS", url="https://t.me/addstickers/IndianBot_1167961858_kang")], [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMoviesTorrent")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
