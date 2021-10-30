@@ -1,4 +1,4 @@
-# (c) @RENISH
+# (c) @BullMovies_Team
 import asyncio
 import time
 from configs import Config
