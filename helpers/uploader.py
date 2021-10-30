@@ -30,9 +30,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Developer - @RENISH", url="https://t.me/renishrplay")],
-                        [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
-                         InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie")]
+                        [InlineKeyboardButton("Developer - @BullMovies_Team", url="https://t.me/BullMovies_Team")],
+                        [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMovies_Team"),
+                         InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMovies_Team")]
                     ]
                 )
             )
@@ -51,9 +51,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("Developer - @RENISH", url="https://t.me/renishrplay")],
-                        [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/rplay_support"),
-                         InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/rplaymovie")]
+                        [InlineKeyboardButton("Developer - @BullMovies_Team", url="https://t.me/BullMovies_Team")],
+                        [InlineKeyboardButton("SUPPORT GROUP", url="https://t.me/BullMovies_Team"),
+                         InlineKeyboardButton("MOVIE CHANNEL", url="https://t.me/BullMovies_Team")]
                     ]
                 )
             )
