@@ -1,7 +1,7 @@
 {
-    "name": "Telegram RPLAY ™ Video Merge Bot",
-    "description": "A Telegram Video Merge Bot in Pyrogram by @RENISH",
-    "logo": "https://transfer.sh/czJtM9/photo_2021-09-26_22-38-30.jpg",
+    "name": "Cobra Video Merge Bot",
+    "description": "A Telegram Video Merge Bot in Pyrogram by @BullMovies_Team",
+    "logo": "https://telegra.ph/file/7d0387bd3212237b8157c.jpg",
     "keywords": [
         "telegram",
         "video",
@@ -9,8 +9,8 @@
         "bot"
     ],
     "repository": "https://github.com/Rplayoriginal/RPLAY-VIDEO-MERGE-BOT",
-    "website": "https://t.me/renishrplay",
-    "success_url": "https://t.me/Rplay_video_mergebot",
+    "website": "https://t.me/BullMovies_Team",
+    "success_url": "https://t.me/videomerge842_bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
